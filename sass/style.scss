@@ -1,0 +1,23 @@
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+
+    box-sizing: border-box;
+
+    font-family: sans-serif
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    text-align:center;
+    font-size: 3em;
+  }

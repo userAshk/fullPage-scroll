@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.min.css">
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="fullpage">
+        <div class="section">
+            <header>
+                <div class="header">
+                    <div class="logo">
+                        logo
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="section">
+            <div class="slide" data-anchor="slide1">Slide 2.1</div>
+            <div class="slide" data-anchor="slide2">Slide 2.2</div>
+        </div>
+        <div class="section">Section 3</div>
+        <div class="section">Section 4</div>
+    </div>
+
+
+    <div id="fp-nav" class="fp-right">
+        <ul>
+            <li><a href="#page1" class="active"><span class="fp-sr-only">fullPage</span><span></span></a>
+                <div class="fp-tooltip fp-right">fullPage</div>
+            </li>
+            <li><a href="#page2" class=""><span class="fp-sr-only">Open</span><span></span></a>
+                <div class="fp-tooltip fp-right">Open</div>
+            </li>
+            <li><a href="#page3" class=""><span class="fp-sr-only">Easy</span><span></span></a>
+                <div class="fp-tooltip fp-right">Easy</div>
+            </li>
+            <li><a href="#page4" class=""><span class="fp-sr-only">Touch</span><span></span></a>
+                <div class="fp-tooltip fp-right">Touch</div>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+    <script src="node_modules/fullpage.js/vendors/easings.js"></script>
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
+
+    <script src="node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
